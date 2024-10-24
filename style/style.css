@@ -1,79 +1,117 @@
- body{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-}
+ body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     font-family: "Poppins", sans-serif;
+ }
 
 
-.container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ .container {
+     width: 100%;
+     height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-.item{
-    padding: 50px 25px 10px 25px;
-    /* border:2px solid black; */
-}
+ .item {
+     padding: 50px 25px 10px 25px;
+     /* border:2px solid black; */
+ }
 
-img{
-    width: 350px;
-}
+ img {
+     width: 350px;
+ }
 
-.form-group{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ .form-group {
+     margin-top: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-.form-group input{
-    font-size: 20px;
-    padding: 5px 15px;
-    border: 2px solid #21649e;
-}
+ .form-group input {
+     font-size: 20px;
+     padding: 5px 15px;
+     border: 2px solid #21649e;
+ }
 
-.form-group input:focus{
-    outline: none;
-}
+ .form-group input:focus {
+     outline: none;
+ }
 
-.form-group button{
-    border: 2px solid #21649e;
-    background-color: #21649e;
-    color: white;
-    font-size: 20px;
-    padding: 5px 15px;
-    transition: 0.3s ease;
-}
+ .form-group button {
+     border: 2px solid #21649e;
+     background-color: #21649e;
+     color: white;
+     font-size: 20px;
+     padding: 5px 15px;
+     transition: 0.3s ease;
+ }
 
-.form-group button:hover{
-    cursor:pointer;
-    background-color: rgba(33, 100, 158, 0.9);
-}
+ .form-group button:hover {
+     cursor: pointer;
+     background-color: rgba(33, 100, 158, 0.9);
+ }
 
-#message{
-    display: block;
-    margin: auto;
-    width: 450px;
-    font-size: 20px;
-    padding: 20px;
-    background-color: green;
-    color: white;
-}
+ #message {
+     display: block;
+     margin: auto;
+     width: 450px;
+     font-size: 20px;
+     padding: 20px;
+     background-color: green;
+     color: white;
+ }
 
-.footer{
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    left: auto;
-    right: auto;
-}
+ .footer {
+     position: absolute;
+     width: 100%;
+     bottom: 0px;
+     left: auto;
+     right: auto;
+ }
 
-.footer a{
-    color: #21649e;
-}
+ .footer a {
+     color: #21649e;
+ }
 
+ /* Responsive */
 
+ @media only screen and (min-width: 320px) and (max-width:430px) {
+    .item{
+        padding: 25px 0px 0px 0px;
+    }
+
+    img{
+        width: 80%;
+    }
+
+    h1{
+        font-size: 25px;
+        padding: 0px 15px;
+    }
+
+    p{
+        padding: 0px 15px;
+    }
+
+    .form-group{
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+
+    #message{
+        width: 75%;
+        font-size: 18px;
+    }
+
+    .footer{
+        font-size: 14px;
+    }
+ }
