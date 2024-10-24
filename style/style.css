@@ -25,6 +25,7 @@ img{
 }
 
 .form-group{
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,5 +49,8 @@ img{
     padding: 5px 15px;
 }
 
+.footer a{
+    color: #21649e;
+}
 
 
