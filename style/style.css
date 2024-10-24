@@ -9,7 +9,6 @@
 .container{
     width: 100%;
     height: auto;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,14 +57,12 @@ img{
 #message{
     display: block;
     margin: auto;
-    border: 1px solid black;
     width: 450px;
     font-size: 20px;
     padding: 20px;
     background-color: green;
     color: white;
 }
-
 
 .footer{
     position: absolute;
