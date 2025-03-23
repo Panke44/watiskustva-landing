@@ -136,11 +136,10 @@
  }
 
  .footer {
-     position: absolute;
-     width: 100%;
-     bottom: 0px;
-     left: auto;
-     right: auto;
+     position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding-left: 0px;
  }
 
  .footer a {
